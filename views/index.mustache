@@ -1,0 +1,14 @@
+{{> header }}
+  <p>Welcome to my tiny Internet fiefdom. You can view the code for this site, and my other side projects, at my 
+  <a href="https://github.com/nphollon">Github page</a>.</p>
+  
+  <h2>Features</h2>
+
+  <ul>
+  {{#posts}}
+    <li>
+      <a href="/posts/{{path}}">{{title}}</a>
+    </li>
+  {{/posts}}
+  </ul>
+{{> footer }}

@@ -1,0 +1,15 @@
+{{> header}}
+  
+  {{{ body }}}
+  
+  <hr>
+  
+  <h3>Onward, Reader</h3>
+  <ul>
+  {{#posts}}
+    <li>
+      <a href="/posts/{{path}}">{{title}}</a>
+    </li>
+  {{/posts}}
+  </ul>
+{{> footer }}
